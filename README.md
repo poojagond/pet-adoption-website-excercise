@@ -14,4 +14,4 @@ HTML, CSS, JavaScript, jQuery, Bootsrap
 
 * Used a lot of words to make the Pet Adoption agency on the top search engine.
 * Developed few page to make a user friendly pet adoption website
-* Used minified version of bootstrap and jquery which would make the website faster
+* Used minified cdn version of bootstrap and jquery which would make the website faster
