@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--All the Javascript/CSS/Import files added-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--jQuery-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Bootstrap CSS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Bootstrap JS-->
+    <link rel="import" type="text/css" href="./assets/snippets/header.html" media="screen" />
+    <!--Header-->
+    <link rel="import" type="text/css" href="./assets/snippets/footer.html" media="screen" />
+    <!--Footer-->
+    <link rel="stylesheet" type="text/css" href="./assets/styles/site.css" media="screen" />
+    <!--Site.css-->
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main-page.css" media="screen" />
+    <!--Custom css file-->
+    <script type="text/javascript" src="./assets/js/main-page.js"></script>
+    <!--Custom js file-->
+
+</head>
+
+<body>
+    <div id="includedHeader"></div>
+
+    <div id="includeNavBar"></div>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-xs-12">
+                    <form id="paa-form" action="/adopt">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Full name ">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput2">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <p>Look for the dog you want to adopt:</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Breed</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Indian Spitz</option>
+                                <option>Greyhound</option>
+                                <option>German Shephard</option>
+                                <option>Pomeranian</option>
+                                <option>Labrador Retriever</option>
+                                <option>Border Collie</option>
+                             </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Gender</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Male</option>
+                                <option>Female</option>  
+              </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect2">Age</label>
+                            <select multiple class="form-control" id="exampleFormControlSelect2">
+                                <option>Baby</option>
+                                <option>Youngster</option>  
+                                <option>Adult</option>  
+                                <option>Senior</option>  
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">How would you make a great home for the pet?</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 paa-submit">Submit my Request</button>
+                    </form>
+
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="paa-quote">
+                        <img src="/assets/images/raw/4.jpeg" alt="dog in a man's bag" class="paa-image">
+                        <p class="text-justify">A dog will teach you unconditional love. If you can have that in your life, things won't be too bad. <i> —Robert Wagner</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="includedFooter"></div>
+
+    <br>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!-- Put your final HTML here -->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--All the Javascript/CSS/Import files added-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--jQuery-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Bootstrap CSS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Bootstrap JS-->
+    <link rel="import" type="text/css" href="./assets/snippets/header.html" media="screen" />
+    <!--Header-->
+    <link rel="import" type="text/css" href="./assets/snippets/footer.html" media="screen" />
+    <!--Footer-->
+    <link rel="stylesheet" type="text/css" href="./assets/styles/site.css" media="screen" />
+    <!--Site.css-->
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main-page.css" media="screen" />
+    <!--Custom css file-->
+    <script type="text/javascript" src="./assets/js/main-page.js"></script>
+    <!--Custom js file-->
+</head>
+
+<body>
+    <div id="includedHeader"></div>
+
+    <div id="includeNavBar"></div>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    <h4>Donate</h4>
+                    <form>
+                        <div class="panel panel-default">
+                            <div class="panel-body form-horizontal payment-form">
+                                <div class="form-group">
+                                    <label for="concept" class="col-12 control-label">Name</label>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" id="name" name="name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="amount" class="col-12 control-label">Amount (in $)</label>
+                                    <div class="col-12">
+                                        <input type="number" class="form-control" id="amount" name="amount">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="status" class="col-12 control-label">Status</label>
+                                    <div class="col-12">
+                                        <select class="form-control" id="status" name="status">
+                                        <option>Paid</option>
+                                        <option>Unpaid</option>
+                                    </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="date" class="col-12 control-label">Date</label>
+                                    <div class="col-12">
+                                        <input type="date" class="form-control" id="date" name="date">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="description" class="col-12 control-label">Write us a Comment</label>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" id="description" name="description">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12 text-right">
+                                        <button type="button" class="btn btn-default preview-add-button">
+                                        Sumbit
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-7 paa-form-donation">
+                    <h1>Donate now to Help!</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960 s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Further Contact: <a href="petadoptionagency@xyz.com">petadoptionagency@xyz.com</a></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="includedFooter "></div>
+</body>
+
+</html>
